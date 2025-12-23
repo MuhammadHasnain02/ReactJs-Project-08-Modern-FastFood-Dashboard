@@ -1,12 +1,12 @@
 // ========================= Live Orders ================================
 
 export const initialOrders = [
-    { id: 'ORD-7432', customer: 'Alice Johnson', timePlaced: '10:05 AM', items: ['Smash Burger (x1)', 'Large Fries (x1)'], status: 'PENDING' },
-    { id: 'ORD-7431', customer: 'Bob Smith', timePlaced: '09:55 AM', items: ['Veggie Wrap (x2)', 'Soda (x2)'], status: 'PREPARING' },
-    { id: 'ORD-7430', customer: 'Charlie Brown', timePlaced: '09:40 AM', items: ['Chicken Sandwich (x1)'], status: 'READY' },
-    { id: 'ORD-7429', customer: 'Diana Prince', timePlaced: '09:20 AM', items: ['Milkshake (x3)'], status: 'COMPLETED' },
+    { id: 'ORD-7432', customer: 'Ali Raza', timePlaced: '10:05 AM', items: ['Smash Burger (x1)', 'Large Fries (x1)'], status: 'PENDING' },
+    { id: 'ORD-7431', customer: 'Ahmed Ali', timePlaced: '09:55 AM', items: ['Veggie Wrap (x2)', 'Soda (x2)'], status: 'PREPARING' },
+    { id: 'ORD-7430', customer: 'Sana Ahmed', timePlaced: '09:40 AM', items: ['Chicken Sandwich (x1)'], status: 'READY' },
+    { id: 'ORD-7429', customer: 'John Lane', timePlaced: '09:20 AM', items: ['Milkshake (x3)'], status: 'COMPLETED' },
     { id: 'ORD-7428', customer: 'Elias Vance', timePlaced: '09:15 AM', items: ['Classic Burger (x1)', 'Small Fries (x1)'], status: 'PREPARING' },
-    { id: 'ORD-7427', customer: 'Fiona Glenanne', timePlaced: '10:08 AM', items: ['Steak Sandwich (x1)'], status: 'PENDING' },
+    { id: 'ORD-7427', customer: 'Raza Ali', timePlaced: '10:08 AM', items: ['Steak Sandwich (x1)'], status: 'PENDING' },
 ];
 
 export const ORDER_STATUSES = {
@@ -21,12 +21,12 @@ export const ORDER_STATUSES = {
 export const mockHistoryData = [
 
     { id: 'ORD-7429', customer: 'Diana Prince', total: 45.00, date: '2024-11-28 14:30', status: 'COMPLETED', payment: 'Card' },
-    { id: 'ORD-7428', customer: 'Elias Vance', total: 22.50, date: '2024-11-28 10:15', status: 'COMPLETED', payment: 'Cash' },
+    { id: 'ORD-7428', customer: 'Raza Ali', total: 22.50, date: '2024-11-28 10:15', status: 'COMPLETED', payment: 'Cash' },
     { id: 'ORD-7427', customer: 'Fiona Glenanne', total: 18.99, date: '2024-11-27 19:45', status: 'COMPLETED', payment: 'App' },
     { id: 'ORD-7426', customer: 'George Lucas', total: 8.50, date: '2024-11-27 12:00', status: 'CANCELLED', payment: 'Card' },
-    { id: 'ORD-7425', customer: 'Hannah Baker', total: 35.75, date: '2024-11-26 15:30', status: 'COMPLETED', payment: 'Card' },
+    { id: 'ORD-7425', customer: 'Ahmed Ali', total: 35.75, date: '2024-11-26 15:30', status: 'COMPLETED', payment: 'Card' },
     { id: 'ORD-7424', customer: 'Ian Malcolm', total: 60.00, date: '2024-11-26 09:00', status: 'COMPLETED', payment: 'Cash' },
-    { id: 'ORD-7423', customer: 'Jenny Fox', total: 12.99, date: '2024-11-25 18:10', status: 'CANCELLED', payment: 'Card' },
+    { id: 'ORD-7423', customer: 'Ali Raza', total: 12.99, date: '2024-11-25 18:10', status: 'CANCELLED', payment: 'Card' },
     { id: 'ORD-7422', customer: 'Kyle Reese', total: 29.99, date: '2024-11-25 11:55', status: 'COMPLETED', payment: 'App' },
     { id: 'ORD-7421', customer: 'Lois Lane', total: 55.00, date: '2024-11-24 16:20', status: 'COMPLETED', payment: 'Cash' },
     { id: 'ORD-7420', customer: 'Clark Kent', total: 15.20, date: '2024-11-24 10:40', status: 'COMPLETED', payment: 'Card' },

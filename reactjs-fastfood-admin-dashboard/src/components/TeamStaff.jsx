@@ -23,9 +23,8 @@ const CustomAlert = ({ message, type, onClose }) => {
     );
 };
 
-/**
- * Form for adding/editing a staff member
- */
+// Form for adding/editing a staff member
+
 const StaffFormModal = ({ staffMember, roles, setStaff, onClose }) => {
 
     const [name, setName] = useState(staffMember?.name || '');
@@ -138,6 +137,9 @@ const StaffFormModal = ({ staffMember, roles, setStaff, onClose }) => {
     );
 };
 
+// Haider@Ali11011
+// @DLSHaider11011
+
 /**
  * Role Management Section
  */
@@ -231,6 +233,7 @@ const RoleManagement = ({ roles, setRoles }) => {
             <div className="mb-8">
                 <h4 className="text-lg font-medium mb-3 border-b pb-2">Existing Roles</h4>
                 <div className="space-y-3">
+                    
                     {roles.map(role => (
                         <div key={role.id} className="flex justify-between items-center p-3 rounded-lg border dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition">
                             <div>
@@ -253,6 +256,7 @@ const RoleManagement = ({ roles, setRoles }) => {
                             </div>
                         </div>
                     ))}
+
                 </div>
             </div>
 
@@ -313,6 +317,7 @@ const RoleManagement = ({ roles, setRoles }) => {
                     </button>
                 </div>
             </form>
+            
         </div>
     );
 };

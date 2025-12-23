@@ -39,7 +39,7 @@ function Home() {
                         visible={true}
                         height="70"
                         width="70"
-                        strokeColor={darkMode ? "#f97316" : "#ea580c"}
+                        color="#009D45"
                         strokeWidth="5"
                         animationDuration="1"
                     />
